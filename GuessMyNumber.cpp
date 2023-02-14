@@ -17,7 +17,7 @@ int main()
     cout << name << endl;
     cout<<"haz tu primer intento, el numero es del 1 al 100" << endl;
     randomNumber = 1 + rand() % (101 - 1);
-    cout << randomNumber << endl;
+    //cout << randomNumber << endl;
     for (int i = 0; win==false ; i++)
     {
         cin >> Attempt;
