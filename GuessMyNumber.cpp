@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <string>
 #include <string.h>
+#include <Windows.h>
 using namespace std;
 int main()
 {
@@ -21,6 +22,7 @@ int main()
     for (int i = 0; win==false ; i++)
     {
         cin >> Attempt;
+        beep(1600, 200);
         if (Attempt < 1 || Attempt>100) {
             cout << "esta fuera de rango o ni siquiera es un numero entero, vuelve a abrir el programa" << endl;
             return 0;
